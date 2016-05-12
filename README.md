@@ -24,66 +24,50 @@ In your project's Gruntfile, add a section named `inky` to the data object passe
 
 ```js
 grunt.initConfig({
-  inky: {
-    options: {
-      // Task-specific options go here.
-    },
-    your_target: {
-      // Target-specific file lists and/or options go here.
-    },
-  },
+    inky: {
+        base: {
+            options: {
+                // your options
+            },
+            files: {
+                'dest/index.html': ['src/index.html'],
+            }
+        }
+    }
 });
 ```
 
 ### Options
 
-#### options.separator
-Type: `String`
-Default value: `',  '`
+#### options.columnCount
+Type: `Number`
+Default value: `12`
 
-A string value that is used to do something with whatever.
+Column count for the grid. Make sure your Foundation for Emails project has the same column count in the Sass as well.
 
-#### options.punctuation
-Type: `String`
-Default value: `'.'`
-
-A string value that is used to do something else with whatever else.
-
-### Usage Examples
-
-#### Default Options
-In this example, the default options are used to do something with whatever. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result would be `Testing, 1 2 3.`
-
-```js
-grunt.initConfig({
-  inky: {
-    options: {},
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
-    },
-  },
-});
+#### options.components
+Type: `Object`
+Default value: 
+```json
+{
+    button: 'button',
+    row: 'row',
+    columns: 'columns',
+    container: 'container',
+    inky: 'inky',
+    blockGrid: 'block-grid',
+    menu: 'menu',
+    menuItem: 'item'
+}
 ```
 
-#### Custom Options
-In this example, custom options are used to do something else with whatever else. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result in this case would be `Testing: 1 2 3 !!!`
-
-```js
-grunt.initConfig({
-  inky: {
-    options: {
-      separator: ': ',
-      punctuation: ' !!!',
-    },
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
-    },
-  },
-});
-```
+Tag names for custom components. See [Inky Docs for custom elements](https://github.com/zurb/inky#custom-elements)
 
 ## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
+In lieu of a formal styleguide, take care to maintain the existing coding style. Lint and test your code before submitting a pull request.
 
-## Release History
-_(Nothing yet)_
+***
+
+## Thanks
+
+grunt-inky was created and is maintained by [Michael Worm](https://github.com/Miw0).
