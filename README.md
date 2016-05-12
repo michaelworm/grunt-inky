@@ -82,13 +82,13 @@ grunt.initConfig({
 ### Options
 
 #### options.columnCount
-Type: `Number`
+Type: `Number`<br>
 Default value: `12`
 
 Column count for the grid. Make sure your Foundation for Emails project has the same column count in the Sass as well.
 
 #### options.components
-Type: `Object`
+Type: `Object`<br>
 Default value: 
 ```js
 {
