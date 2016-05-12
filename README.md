@@ -48,11 +48,34 @@ grunt.initConfig({
     inky: {
         base: {
             options: {
-                // your options
+                // your options for Inky
             },
             files: {
                 'dest/index.html': ['src/index.html'],
             }
+        }
+    }
+});
+```
+
+You can also use this syntax:
+
+```js
+grunt.initConfig({
+    inky: {
+        base: {
+            options: {
+                // your options for Inky
+            },
+            files: [
+                {
+                    cwd: 'src/',
+                    src: 'index.html',
+                    dest: 'dest/',
+                    filter: 'isFile',
+                    expand: true
+                }
+            ]
         }
     }
 });
