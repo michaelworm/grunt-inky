@@ -48,7 +48,7 @@ Column count for the grid. Make sure your Foundation for Emails project has the 
 #### options.components
 Type: `Object`
 Default value: 
-```json
+```js
 {
     button: 'button',
     row: 'row',
