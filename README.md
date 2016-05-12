@@ -1,5 +1,7 @@
 # grunt-inky
 
+[![npm version](https://badge.fury.io/js/grunt-inky.svg)](https://badge.fury.io/js/grunt-inky)
+
 > A grunt plugin for ZURB Inky. https://github.com/zurb/inky
 
 ```
