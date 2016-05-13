@@ -1,6 +1,6 @@
 # grunt-inky
 
-[![npm](https://img.shields.io/npm/v/grunt-inky.svg?maxAge=2592000)](https://www.npmjs.com/package/grunt-inky) [![npm](https://img.shields.io/npm/dt/grunt-inky.svg?maxAge=2592000)](https://www.npmjs.com/package/grunt-inky)
+[![npm](https://img.shields.io/npm/v/grunt-inky.svg?maxAge=43200)](https://www.npmjs.com/package/grunt-inky) [![npm](https://img.shields.io/npm/dt/grunt-inky.svg?maxAge=43200)](https://www.npmjs.com/package/grunt-inky)
 
 > A grunt plugin for ZURB Inky. https://github.com/zurb/inky
 
