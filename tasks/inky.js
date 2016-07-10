@@ -94,7 +94,7 @@ module.exports = function (grunt) {
                     html = cheerio.load(input),
                     convertedHtml = i.releaseTheKraken(html);
 
-                fullHtml += convertedHtml.html();
+                fullHtml += convertedHtml;
 
                 grunt.log.writeln('File ' + chalk.cyan(file) + ' has been released by the ' + chalk.magenta('kraken') + ' ...');
             });
