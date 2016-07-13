@@ -91,10 +91,9 @@ module.exports = function (grunt) {
                 // Actual Inky processing
                 var i = new Inky(options),
                     input = grunt.file.read(file),
-                    html = cheerio.load(input),
-                    convertedHtml = i.releaseTheKraken(html);
+                    html = cheerio.load(input);
 
-                fullHtml += convertedHtml;
+                fullHtml += i.releaseTheKraken(html);
 
                 grunt.log.writeln('File ' + chalk.cyan(file) + ' has been released by the ' + chalk.magenta('kraken') + ' ...');
             });
