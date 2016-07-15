@@ -57,7 +57,8 @@ module.exports = function (grunt) {
                     return 'file';
                 }
             },
-            options = this.options(this.data.options,{
+            options = this.options({
+                cheerio: {},
                 columnCount: 12,
                 components: {
                     button: 'button',
@@ -91,7 +92,7 @@ module.exports = function (grunt) {
                 // Actual Inky processing
                 var i = new Inky(options),
                     input = grunt.file.read(file),
-                    html = cheerio.load(input, options),
+                    html = cheerio.load(input, options.cheerio),
                     convertedHtml = i.releaseTheKraken(html);
 
                 fullHtml += convertedHtml;
