@@ -91,7 +91,7 @@ module.exports = function (grunt) {
                 // Actual Inky processing
                 var i = new Inky(options),
                     input = grunt.file.read(file),
-                    html = cheerio.load(input),
+                    html = cheerio.load(input, options),
                     convertedHtml = i.releaseTheKraken(html);
 
                 fullHtml += convertedHtml;
