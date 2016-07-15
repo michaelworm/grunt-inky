@@ -57,7 +57,7 @@ module.exports = function (grunt) {
                     return 'file';
                 }
             },
-            options = this.options({
+            options = this.options(this.data.options,{
                 columnCount: 12,
                 components: {
                     button: 'button',
