@@ -83,6 +83,15 @@ grunt.initConfig({
 
 ### Options
 
+#### options.cheerio
+Type: `Object`<br>
+Default value: 
+```js
+{}
+```
+
+Pass options to cheerio. See [cheerio API](https://github.com/cheeriojs/cheerio#api)
+
 #### options.columnCount
 Type: `Number`<br>
 Default value: `12`
