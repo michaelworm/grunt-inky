@@ -1,6 +1,8 @@
 # grunt-inky
 
-[![npm](https://img.shields.io/npm/v/grunt-inky.svg?maxAge=86400)](https://www.npmjs.com/package/grunt-inky) [![npm](https://img.shields.io/npm/dt/grunt-inky.svg?maxAge=86400)](https://www.npmjs.com/package/grunt-inky)
+[![npm](https://img.shields.io/npm/v/grunt-inky.svg?maxAge=86400)](https://www.npmjs.com/package/grunt-inky) 
+[![npm](https://img.shields.io/npm/dt/grunt-inky.svg?maxAge=86400)](https://www.npmjs.com/package/grunt-inky) 
+[![Buy me a beer!](https://img.shields.io/badge/Buy%20me%20a%20beer!-%F0%9F%8D%BA-yellow.svg)](https://www.paypal.me/Miw0)
 
 > A grunt plugin for ZURB Inky. https://github.com/zurb/inky
 
