@@ -36,6 +36,7 @@ module.exports = function (grunt) {
             chalk = require('chalk'),
             max = this.filesSrc.length,
             index = 0,
+            self = this,
             isFinished = function () {
                 index++;
 
@@ -92,7 +93,7 @@ module.exports = function (grunt) {
                 // Actual Inky processing
                 var i = new Inky(options),
                     input = grunt.file.read(file),
-                    html = cheerio.load(input, options.cheerio);
+                    html = cheerio.load(input, Object.assign(options.cheerio, self.data.options));
 
                 fullHtml += i.releaseTheKraken(html);
 
