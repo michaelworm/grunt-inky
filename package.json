@@ -1,7 +1,7 @@
 {
   "name": "grunt-inky",
   "description": "A grunt plugin for ZURB Inky. https://github.com/zurb/inky",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "homepage": "https://github.com/Miw0/grunt-inky",
   "author": {
     "name": "Michael 'Miw0' Worm",
