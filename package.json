@@ -2,23 +2,23 @@
   "name": "grunt-inky",
   "description": "A grunt plugin for ZURB Inky. https://github.com/zurb/inky",
   "version": "0.4.0",
-  "homepage": "https://github.com/Miw0/grunt-inky",
+  "homepage": "https://github.com/michaelworm/grunt-inky",
   "author": {
     "name": "Michael 'Miw0' Worm",
     "email": "MrMiw0@gmail.com",
-    "url": "https://github.com/Miw0"
+    "url": "https://github.com/michaelworm"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Miw0/grunt-inky"
+    "url": "https://github.com/michaelworm/grunt-inky"
   },
   "bugs": {
-    "url": "https://github.com/Miw0/grunt-inky/issues"
+    "url": "https://github.com/michaelworm/grunt-inky/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/Miw0/grunt-inky/blob/master/LICENSE-MIT"
+      "url": "https://github.com/michaelworm/grunt-inky/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
