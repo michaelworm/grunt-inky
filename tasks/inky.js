@@ -1,6 +1,6 @@
 /*
  * grunt-inky
- * https://github.com/Miw0/grunt-inky
+ * https://github.com/michaelworm/grunt-inky
  *                         ___
  *                      .-'   `'.
  *                     /         \
